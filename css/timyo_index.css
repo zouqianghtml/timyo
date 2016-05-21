@@ -1,0 +1,516 @@
+/*<!-- 头部 -->*/
+.header_box{
+	background: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 1em;
+}
+
+@media(max-width: 1024px){
+	.header_box{
+		background: #f7f7f7;
+	}
+}
+
+#nav_box{
+	background-color:transparent;
+	border-color: transparent;
+	
+}
+
+#nav_box .navbar-header{
+	min-height: 78px;
+}
+#nav_box .navbar-header .navbar-toggle{
+	margin-top: 35px;
+}
+
+#nav_ul{
+	padding-top: 20px;
+}
+
+#nav_ul li a{
+	font-size: 28px;
+	font-weight: 200;
+	color: black;
+}
+#nav_ul li a:hover{
+	color: #ccc;
+	transition: all 0.5s;
+}
+
+.banner-info-left .tagline>h2{
+	color: #404040;
+	font-size: 26px;
+	font-family: inherit;
+	font-weight: 100;
+}
+.banner-info-left>h2{
+	font-size: 56px;
+	font-weight: 100;
+	font-family: inherit;
+	margin-bottom: 1em;
+}
+
+@media(max-width: 1024px){
+	.banner-info-left>h2{
+		font-size: 40px;
+		margin-bottom: 1.5em;
+	}
+}
+
+.banner-info-left>h2 a{
+	color: rgb(0, 136, 204);
+    font-weight: 100;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+@media(max-width: 768px){
+	.banner-info-left{
+		width: 60%;
+		float: left;
+	}
+	.slid{
+		width: 40%;
+		float: left;
+	}
+}
+
+@media(max-width: 640px){
+	.banner-info-left{
+		width: 67%;
+		float: left;
+	}
+	.slid{
+		width: 33%;
+		float: left;
+	}
+}
+
+@media(max-width: 480px){
+	.banner-info-left{
+		width: 100%;
+		float: left;
+	}
+	.slid{
+		width: 100%;
+		float: left;
+	}
+}
+
+.tu_box{
+	width: 100%;
+
+}
+
+@media(max-width: 992px){
+	#tu_ul>li>div{
+		text-align: center;
+	}
+}
+
+.tu_box{
+	padding-bottom: 6em;
+	position: relative;
+}
+
+.tu_box>ul>li img{
+	max-width: 100%;
+}
+
+#tu_ul{
+	width: 100%;
+	position: relative;
+	
+}
+
+#tu_ul li{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#tu_ul .active{
+	position: relative;
+	z-index: 2;
+}
+
+.nav_zhuti .row{
+	padding-top: 2em;
+}
+
+.anniu{
+	position: absolute;
+	left: 50%;
+	/*margin-left: -20px;*/
+	bottom: 3em;
+}
+
+@media(max-width: 992px){
+	.anniu{
+		margin-left: -65px;
+	}
+	
+}
+
+.anniu span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border:2px solid #fff;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.anniu .active{
+	background: #fff;
+}
+
+/*Available now for iOS!*/
+.main_info{
+	background: #FFF;
+    text-align: center;
+    padding: 0 0 1em 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.main_info .container>h3{
+	margin:17px 0;
+	color: #404040;
+    font-weight: 100;
+    font-size: 34px;
+}
+.main_info .container>p:nth-child(2){
+	color: #404040;
+    font-weight: 200;
+}
+
+.main_info .container>a img{
+	height: 60px;
+	width:203px;
+}
+.linkTextingWidget{
+	padding-bottom: 2em;
+	border-bottom: 1px solid rgba(132, 140, 154, 0.21);
+}
+
+@media(max-width: 1024px){
+	.linkTextingWidget{
+		display: none;
+	}
+}
+
+.main_info .container .p2{
+	color: #404040;
+	font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#fremail{
+	color: rgba(64, 64, 64, 0.7);
+    font-weight: 300;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    padding: .5em 8em;
+    margin: 1em;
+    border: solid 1px #404040;
+    -webkit-appearance: none;
+}
+.input_box>p{
+	font-size: 20px;
+    font-weight: 200;
+    margin: 0;
+}
+
+#Android{
+	background: url("../img/android-icon.jpg");
+	background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    opacity: 0.3;
+}
+#Windows {
+    background: url("../img/windows-icon.jpg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    opacity: 0.3;
+}
+
+/*Wait!*/
+.main_bottom{
+	background: #f7f7f7;
+    padding: 12em 0 8em;
+}
+
+@media(max-width: 768px){
+	.main_bottom{
+   		padding: 3em 0;
+	}
+}
+
+.banner-text{
+	text-align: center;
+}
+
+.banner-text h3{ 
+	font-size: 56px;
+	font-weight: 100;
+}
+
+@media(max-width: 1024px){
+	.banner-text h3{ 
+		font-size: 40px;
+	}
+	
+}
+
+.only-30-percent img{
+	float: left;
+    margin-right: 5em;
+    margin-bottom: 1em;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner-text p{
+	color: #404040;
+    font-weight: 100;
+    font-size: 21px;
+    text-align: left;
+    margin-top: 2em;
+}
+
+/*Focus on what matters today*/
+.features{
+	padding-top: 4em;
+}
+.features_box1 h2{
+	font-size: 56px;
+	color: #404040;
+    text-align: center;
+    font-weight: 200;
+    margin: 1em 0 0 0;
+}
+@media(max-width: 1024px){
+	.features_box1 h2{
+		font-size: 40px;
+	}
+	
+}
+.features_box1 p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.features_box1 p a{
+	text-decoration: none;
+
+}
+
+.features_left{
+	text-align: center;
+}
+.features_left>img{
+	max-width: 100%; 
+} 
+
+.features_right{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+@media(max-width:768px){
+	.features_left{
+		float: left;
+		width: 40%;
+	}
+
+	.features_right{
+		float: left;
+		width: 60%;
+	}
+}
+
+@media(max-width:480px){
+	.features_left{
+		/*float: left;*/
+		width: 100%;
+	}
+
+	.features_right{
+		/*float: left;*/
+		width: 100%;
+	}
+}
+
+.features_right_ul>li{
+	margin-bottom: 28px;
+}
+
+.features_right_ul>li>h5{
+	font-size: 20px;
+	font-weight: 200px;
+	background: url(../img/blue-box.png) no-repeat;
+	/*background-repeat: no-repeat;*/
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+.features_right_ul>li>h5>a{
+	text-decoration: none;
+}
+
+.features_right_ul>li>p{
+	font-size: 18px;
+	color: #686868;
+	font-weight: 100;
+}
+
+/*Give the gift of clear expectations*/
+.expectations{
+	background: #f7f7f7;
+	padding-bottom: 2em;
+	padding-top: 8em;
+}
+
+.expectations_left{
+	text-align: center;
+}
+
+.expectations_left img{
+	max-width: 100%;
+}
+
+.expectations_right{
+	margin-top: 4em;
+	/*text-align: center;*/
+}
+
+.expectations_right h2{
+	font-size: 52px;
+	font-weight: 100;
+}
+
+@media(max-width: 992px){
+	.expectations_right h2{
+		text-align: center;
+		font-size: 40px;
+	}
+}
+
+/*Timyo works on your desktop as well*/
+
+.clarity-bg img{
+	max-width: 100%;
+}
+
+.clarity-bg>.container>h2{
+	font-size: 56px;
+	margin:3em 0 2em 0;
+	font-weight: 100;
+}
+
+@media(max-width: 1024px){
+	.clarity-bg>.container>h2{
+		font-size: 40px;
+	}
+
+}
+/*We are on a mission */
+
+.mission{
+	background: #f7f7f7;
+}
+
+.mission>.container>h2{
+	color: #404040;
+	text-align: center;
+	font-weight: 100;
+	font-size: 56px;
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+
+@media(max-width: 1024px){
+	.mission>.container>h2{
+		font-size: 40px;
+	}
+}
+
+.mission>.container>ul{
+	margin-bottom: 8em;
+}
+
+.mission>.container>ul>li{
+	padding-top: 1em;
+}
+
+.mission>.container>ul>li>div>p{
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+	font-size: 26px;
+}
+
+.mission>.container>ul>li>p{
+	color: #696969;
+    font-weight: 100;
+    font-size: 21px;
+    text-align: left
+}
+
+/*Upgrade to business class email*/
+
+.footer_a a{
+	color: #1B242F;
+	padding: 0 5px;
+	border-right: 1px solid black;
+}
+
+.footer_a a:nth-child(4){
+	border-right: none;
+}
+
+.footer_a a:hover{
+	color: red;
+}
+
+/*固定广告*/
+.fix_box{
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
